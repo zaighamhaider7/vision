@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceHub</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- hero-section  -->
+     <section id="hero">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand color-dark" href="dashboard.html">
+            <h2
+              style="
+                text-decoration: none;
+                color: #fff;
+                font-weight: bold;
+                font-style: italic;
+              "
+            >
+              AZ - FIT
+            </h2>
+          </a>
+          <button
+            class="navbar-toggler night"
+            id="hammenu"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Categories"> CATEGORIES </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> CONTACT </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"> LOGIN </a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <label id="dark-change"></label>
+              <input
+                class="form-control me-2 bg-transparent"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light me-2" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero sec -->
+      <div class="hero-sec-desc">
+        <h2 class="heading1 text-center">Change krlena khud ab</h2>
+        <h5 class="tagline text-center">
+             jesy bana na tumhai bana lena
+        </h5>
+        <button class="text-white hero-sec-btn">ok</button>
+      </div>
+      <div id="overlay"></div>
+    </section>
+
+  <!-- SERVICES section -->
+  <section id="service">
+    <h2
+      style="
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-style: oblique;
+        margin-bottom: 1em;
+      "
+      id="product"
+    >
+      SERVICES
+    </h2>
+    <div class="container products">
+      <div class="row row-one mb-3">
+        <div class="col col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="card">
+                <img src="./assets/Screenshot 2024-07-05 125120.png" class="card-img-top" alt="Product image">
+                <div class="card-body">
+                    <h4 class="card-title">lorem</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci excepturi eligendi quis voluptatibus ad beatae, vero fugit....</p>
+                    <div class="price-btn">
+                        <h5>$99</h5>
+                        <button type="button" class="addtocart" onclick="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="card">
+                <img src="./assets/Screenshot 2024-07-05 125147.png" class="card-img-top" alt="Product image">
+                <div class="card-body">
+                    <h4 class="card-title">lorem</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci excepturi eligendi quis voluptatibus ad beatae, vero fugit....</p>
+                    <div class="price-btn">
+                        <h5>$99</h5>
+                        <button type="button" class="addtocart" onclick="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="card">
+                <img src="#" class="card-img-top" alt="Product image">
+                <div class="card-body">
+                    <h4 class="card-title">lorem </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci excepturi eligendi quis voluptatibus ad beatae, vero fugit....</p>
+                    <div class="price-btn">
+                        <h5>$99</h5>
+                        <button type="button" class="addtocart" onclick="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="card">
+                <img src="#" class="card-img-top" alt="Product image">
+                <div class="card-body">
+                    <h4 class="card-title">lorem </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci excepturi eligendi quis voluptatibus ad beatae, vero fugit....</p>
+                    <div class="price-btn">
+                        <h5>$99</h5>
+                        <button type="button" class="addtocart" onclick="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="card">
+                <img src="#" class="card-img-top" alt="Product image">
+                <div class="card-body">
+                    <h4 class="card-title">lorem </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci excepturi eligendi quis voluptatibus ad beatae, vero fugit....</p>
+                    <div class="price-btn">
+                        <h5>$99</h5>
+                        <button type="button" class="addtocart" onclick="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-6 mt-3">
+            <div class="card">
+                <img src="#" class="card-img-top" alt="Product image">
+                <div class="card-body">
+                    <h4 class="card-title">lorem </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure adipisci excepturi eligendi quis voluptatibus ad beatae, vero fugit....</p>
+                    <div class="price-btn">
+                        <h5>$99</h5>
+                        <button type="button" class="addtocart" onclick="cart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- gallery section -->
+  <section id="gallery">
+    <h2
+    style="
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      font-style: oblique;
+      margin-top: 1em;
+    "
+    id="product"
+  >
+    GALERY VIEW
+  </h2>
+    <div class="album">
+      <div class="responsive-container-block bg">
+        <div class="responsive-container-block img-cont">
+          <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.4.svg">
+          <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.5.svg">
+          <img class="img img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.6.svg">
+        </div>
+        <div class="responsive-container-block img-cont">
+          <img class="img img-big" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.11.svg">
+          <img class="img img-big img-last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.10.svg">
+        </div>
+        <div class="responsive-container-block img-cont">
+          <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.7.svg">
+          <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.8.svg">
+          <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.9.svg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2
+      style="
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-style: oblique;
+        margin-bottom: 1em;
+      "
+      id="contact"
+    >
+      Contact Us
+    </h2>
+    <form
+      action="https://formsubmit.co/zaighamhaider8@gmail.com"
+      method="POST"
+    >
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted footer">
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+
+      <div>
+        <a href="" class="me-4 text-reset" style="font-size: 1.5em">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset" style="font-size: 1.5em">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset" style="font-size: 1.5em">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>A-Z FIT
+            </h6>
+            <p>
+              we are dedicated to providing the best quality products to our
+              customers. Our mission is to offer stylish and comfortable
+              clothing that fits your lifestyle. We believe in sustainability
+              and work hard to ensure our products are eco-friendly.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Sections</h6>
+            <p>
+              <a href="index.html" class="text-reset">HOME</a>
+            </p>
+            <p>
+              <a href="#product" class="text-reset">PRODUCT</a>
+            </p>
+            <p>
+              <a href="#Categories" class="text-reset">CATEGORIES</a>
+            </p>
+            <p>
+              <a href="#contact" class="text-reset">CONTACT</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Help center</h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Karachi,Pakistan</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              az@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="text-center p-4"
+      style="background-color: rgba(0, 0, 0, 0.05)"
+    >
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="#!">A-Z FIT</a>
+    </div>
+  </footer>
+
+</body>
+</html>
