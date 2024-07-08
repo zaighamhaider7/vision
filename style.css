@@ -46,7 +46,7 @@ body{
   }
   .heading1 {
     font-family: "Forum", serif;
-    font-size: 5.5vmax;
+    font-size: 5vmax;
     margin-bottom: 0%;
     color: #fff;
     text-shadow: 2px 2px 4px #000000;
@@ -77,7 +77,7 @@ body{
   @media (max-width: 400px) {
     .heading1 {
       font-family: "Forum", serif;
-      font-size: 5.5vmax;
+      font-size: 5vmax;
       text-align: center;
       padding: 0% 2%;
     }
