@@ -4,8 +4,9 @@ body{
     box-sizing: border-box;
 }
 #hero {
-    background-image: url(./assets/hr.jpg);
+    background-image: url(./assets/pexels-vie-studio-4439444.jpg);
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -93,7 +94,8 @@ body{
   #overlay {
     height: 100vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.644);
+    /* background-color: rgba(0, 0, 0, 0.644); */
+    background-color: rgba(0, 0, 0, 0.829);
     position: absolute;
     top: 0%;
     right: 0%;
@@ -155,9 +157,10 @@ body{
   }
   
   .col .card img {
-    height: 120px;
-    width: auto;
+    height: 160px;
+    width: 160px;
     margin: 0% auto;
+    background-color: rgba(128, 128, 128, 0.486);
   }
   
   .col .card a {
